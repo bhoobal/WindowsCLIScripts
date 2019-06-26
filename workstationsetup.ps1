@@ -4,6 +4,7 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco upgrade chocolatey
+choco install wget -y
 
 #browser
 choco install adobereader -y
