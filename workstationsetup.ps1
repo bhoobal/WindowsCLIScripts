@@ -5,6 +5,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 choco upgrade chocolatey
 choco install wget -y
+choco install nugetpackagemanager -y
 
 #browser
 choco install adobereader -y
